@@ -1,0 +1,145 @@
+{
+  "name": "Company Performance Monitor",
+  "nodes": [
+    {
+      "parameters": {
+        "rule": {
+          "interval": [
+            {
+              "field": "hours",
+              "value": 1
+            }
+          ]
+        }
+      },
+      "name": "Schedule Trigger",
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "position": [250, 300]
+    },
+    {
+      "parameters": {
+        "url": "=process.env.SUPABASE_URL",
+        "apiKey": "=process.env.SUPABASE_SERVICE_KEY",
+        "operation": "select",
+        "table": "companies",
+        "limit": 100
+      },
+      "name": "Fetch Companies",
+      "type": "n8n-nodes-base.supabase",
+      "position": [450, 300]
+    },
+    {
+      "parameters": {
+        "url": "http://localhost:3000/api/analyze",
+        "method": "POST",
+        "sendBody": true,
+        "bodyParameters": {
+          "company_id": "={{$node[\"Fetch Companies\"].data[\"id\"]}}",
+          "analysis_type": "performance"
+        }
+      },
+      "name": "Analyze Performance",
+      "type": "n8n-nodes-base.httpRequest",
+      "position": [650, 300]
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "string": [
+            {
+              "value1": "={{$node[\"Analyze Performance\"].data[\"status\"]}}",
+              "value2": "alert"
+            }
+          ]
+        }
+      },
+      "name": "Check Alerts",
+      "type": "n8n-nodes-base.if",
+      "position": [850, 300]
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "=process.env.SLACK_WEBHOOK_URL",
+        "sendBody": true,
+        "bodyParameters": {
+          "text": "={{$node[\"Analyze Performance\"].data[\"message\"]}}"
+        }
+      },
+      "name": "Send Alert",
+      "type": "n8n-nodes-base.httpRequest",
+      "position": [1050, 250]
+    },
+    {
+      "parameters": {
+        "url": "=process.env.SUPABASE_URL",
+        "apiKey": "=process.env.SUPABASE_SERVICE_KEY",
+        "operation": "insert",
+        "table": "activity_logs",
+        "columns": {
+          "message": "={{$node[\"Analyze Performance\"].data[\"message\"]}}",
+          "timestamp": "={{$now}}",
+          "metadata": "={{$node[\"Analyze Performance\"].data}}"
+        }
+      },
+      "name": "Log Activity",
+      "type": "n8n-nodes-base.supabase",
+      "position": [1050, 350]
+    }
+  ],
+  "connections": {
+    "Schedule Trigger": {
+      "main": [
+        [
+          {
+            "node": "Fetch Companies",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Fetch Companies": {
+      "main": [
+        [
+          {
+            "node": "Analyze Performance",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Analyze Performance": {
+      "main": [
+        [
+          {
+            "node": "Check Alerts",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Check Alerts": {
+      "true": [
+        [
+          {
+            "node": "Send Alert",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ],
+      "main": [
+        [
+          {
+            "node": "Log Activity",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  }
+}

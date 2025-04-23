@@ -1,0 +1,125 @@
+{
+  "name": "Company Onboarding Automation",
+  "nodes": [
+    {
+      "id": "webhook_trigger",
+      "type": "n8n-nodes-base.webhook",
+      "parameters": {
+        "path": "company-onboarding",
+        "responseMode": "lastNode",
+        "options": {}
+      },
+      "position": [100, 300]
+    },
+    {
+      "id": "validate_data",
+      "type": "n8n-nodes-base.function",
+      "parameters": {
+        "functionCode": "const data = $input.first();\nconst required = ['name', 'email', 'industry', 'size'];\nfor (const field of required) {\n  if (!data[field]) throw new Error(`Missing ${field}`);\n}\nreturn data;"
+      },
+      "position": [300, 300]
+    },
+    {
+      "id": "create_supabase_record",
+      "type": "n8n-nodes-base.httpRequest",
+      "parameters": {
+        "url": "={{$env.SUPABASE_URL}}/rest/v1/companies",
+        "method": "POST",
+        "headers": {
+          "apikey": "={{$env.SUPABASE_SERVICE_KEY}}",
+          "Authorization": "Bearer {{$env.SUPABASE_SERVICE_KEY}}"
+        },
+        "bodyParameters": {
+          "name": "={{$node.validate_data.json.name}}",
+          "email": "={{$node.validate_data.json.email}}",
+          "industry": "={{$node.validate_data.json.industry}}",
+          "size": "={{$node.validate_data.json.size}}",
+          "status": "onboarding"
+        }
+      },
+      "position": [500, 300]
+    },
+    {
+      "id": "setup_resources",
+      "type": "n8n-nodes-base.function",
+      "parameters": {
+        "functionCode": "const company = $input.first();\nreturn [\n  { type: 'database', action: 'create_schema' },\n  { type: 'storage', action: 'create_bucket' },\n  { type: 'auth', action: 'setup_roles' }\n].map(task => ({ ...task, company_id: company.id }));"
+      },
+      "position": [700, 300]
+    },
+    {
+      "id": "provision_resources",
+      "type": "n8n-nodes-base.httpRequest",
+      "parameters": {
+        "url": "={{$env.API_URL}}/provision",
+        "method": "POST",
+        "headers": {
+          "Authorization": "Bearer {{$env.API_KEY}}"
+        },
+        "bodyParameters": {
+          "tasks": "={{$node.setup_resources.json}}"
+        }
+      },
+      "position": [900, 300]
+    },
+    {
+      "id": "send_welcome_email",
+      "type": "n8n-nodes-base.sendEmail",
+      "parameters": {
+        "fromEmail": "={{$env.SMTP_FROM}}",
+        "toEmail": "={{$node.validate_data.json.email}}",
+        "subject": "Welcome to Our Platform",
+        "text": "=Dear {{$node.validate_data.json.name}},\n\nWelcome aboard! Your company has been successfully onboarded.\n\nBest regards,\nThe Team"
+      },
+      "position": [1100, 300]
+    },
+    {
+      "id": "notify_team",
+      "type": "n8n-nodes-base.slack",
+      "parameters": {
+        "webhookUrl": "={{$env.SLACK_WEBHOOK_URL}}",
+        "text": "=New company onboarded: {{$node.validate_data.json.name}}"
+      },
+      "position": [1100, 500]
+    },
+    {
+      "id": "update_status",
+      "type": "n8n-nodes-base.httpRequest",
+      "parameters": {
+        "url": "={{$env.SUPABASE_URL}}/rest/v1/companies?id=eq.{{$node.create_supabase_record.json.id}}",
+        "method": "PATCH",
+        "headers": {
+          "apikey": "={{$env.SUPABASE_SERVICE_KEY}}",
+          "Authorization": "Bearer {{$env.SUPABASE_SERVICE_KEY}}"
+        },
+        "bodyParameters": {
+          "status": "active"
+        }
+      },
+      "position": [1300, 300]
+    }
+  ],
+  "connections": {
+    "webhook_trigger": {
+      "main": [["validate_data"]]
+    },
+    "validate_data": {
+      "main": [["create_supabase_record"]]
+    },
+    "create_supabase_record": {
+      "main": [["setup_resources"]]
+    },
+    "setup_resources": {
+      "main": [["provision_resources"]]
+    },
+    "provision_resources": {
+      "main": [["send_welcome_email", "notify_team"]]
+    },
+    "send_welcome_email": {
+      "main": [["update_status"]]
+    },
+    "notify_team": {
+      "main": [["update_status"]]
+    }
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "name": "Business Management Automation",
+  "nodes": [
+    {
+      "id": "schedule_trigger",
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "parameters": {
+        "rule": {
+          "interval": [
+            {
+              "field": "hours",
+              "value": 1
+            }
+          ]
+        }
+      },
+      "position": [250, 300]
+    },
+    {
+      "id": "load_businesses",
+      "type": "n8n-nodes-base.function",
+      "parameters": {
+        "functionCode": "const fs = require('fs');\nconst yaml = require('js-yaml');\nconst configs = fs.readdirSync('companies/configurations');\nreturn configs.map(file => yaml.load(fs.readFileSync(`companies/configurations/${file}`)));"
+      },
+      "position": [450, 300]
+    },
+    {
+      "id": "check_health",
+      "type": "n8n-nodes-base.httpRequest",
+      "parameters": {
+        "url": "={{$node.load_businesses.json.company_info.api_url}}/health",
+        "method": "GET"
+      },
+      "position": [650, 300]
+    },
+    {
+      "id": "analyze_metrics",
+      "type": "n8n-nodes-base.function",
+      "parameters": {
+        "functionCode": "const metrics = $input.all();\nreturn metrics.map(m => ({\n  company: m.company_info.name,\n  status: m.health === 'ok' ? 'healthy' : 'issues',\n  metrics: {\n    cpu: m.metrics.cpu_usage,\n    memory: m.metrics.memory_usage,\n    requests: m.metrics.api_requests\n  }\n}));"
+      },
+      "position": [850, 300]
+    },
+    {
+      "id": "detect_issues",
+      "type": "n8n-nodes-base.if",
+      "parameters": {
+        "conditions": {
+          "string": [
+            {
+              "value1": "={{$node.analyze_metrics.json.status}}",
+              "value2": "issues"
+            }
+          ]
+        }
+      },
+      "position": [1050, 300]
+    },
+    {
+      "id": "create_incident",
+      "type": "n8n-nodes-base.httpRequest",
+      "parameters": {
+        "url": "={{$env.INCIDENT_API}}/incidents",
+        "method": "POST",
+        "bodyParameters": {
+          "company": "={{$node.analyze_metrics.json.company}}",
+          "issue": "={{$node.analyze_metrics.json.metrics}}"
+        }
+      },
+      "position": [1250, 250]
+    },
+    {
+      "id": "notify_team",
+      "type": "n8n-nodes-base.slack",
+      "parameters": {
+        "webhookUrl": "={{$env.SLACK_WEBHOOK_URL}}",
+        "text": "=Issue detected for {{$node.analyze_metrics.json.company}}: {{$node.analyze_metrics.json.metrics}}"
+      },
+      "position": [1250, 350]
+    },
+    {
+      "id": "update_dashboard",
+      "type": "n8n-nodes-base.httpRequest",
+      "parameters": {
+        "url": "={{$env.DASHBOARD_API}}/metrics",
+        "method": "POST",
+        "bodyParameters": {
+          "metrics": "={{$node.analyze_metrics.json}}"
+        }
+      },
+      "position": [1450, 300]
+    }
+  ],
+  "connections": {
+    "schedule_trigger": {
+      "main": [["load_businesses"]]
+    },
+    "load_businesses": {
+      "main": [["check_health"]]
+    },
+    "check_health": {
+      "main": [["analyze_metrics"]]
+    },
+    "analyze_metrics": {
+      "main": [["detect_issues"]]
+    },
+    "detect_issues": {
+      "true": [["create_incident"], ["notify_team"]],
+      "main": [["update_dashboard"]]
+    },
+    "create_incident": {
+      "main": [["update_dashboard"]]
+    },
+    "notify_team": {
+      "main": [["update_dashboard"]]
+    }
+  }
+}

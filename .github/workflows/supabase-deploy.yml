@@ -1,0 +1,49 @@
+name: Supabase Deploy
+
+on:
+  push:
+    branches:
+      - main
+      - master
+  pull_request:
+    branches:
+      - main
+      - master
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Install Supabase CLI
+        run: |
+          brew install supabase/tap/supabase
+
+      - name: Link to Supabase project
+        run: supabase link --project-ref oobqauxgqnvdqocnibiz
+        env:
+          SUPABASE_ACCESS_TOKEN: ${{ secrets.SUPABASE_ACCESS_TOKEN }}
+
+      - name: Generate migration file if needed
+        run: |
+          if [ ! -f "migrations/$(date +%Y%m%d)_update.sql" ]; then
+            supabase db diff --linked > migrations/$(date +%Y%m%d)_update.sql
+          fi
+        env:
+          SUPABASE_ACCESS_TOKEN: ${{ secrets.SUPABASE_ACCESS_TOKEN }}
+
+      - name: Push database changes
+        run: supabase db push
+        env:
+          SUPABASE_ACCESS_TOKEN: ${{ secrets.SUPABASE_ACCESS_TOKEN }}
+
+      - name: Notify Supabase of deployment
+        if: success()
+        run: |
+          curl -X POST https://api.supabase.com/v1/projects/oobqauxgqnvdqocnibiz/github/webhook \
+            -H "Authorization: Bearer ${{ secrets.SUPABASE_ACCESS_TOKEN }}" \
+            -H "Content-Type: application/json" \
+            -d '{"event":"push"}'
+        env:
+          SUPABASE_ACCESS_TOKEN: ${{ secrets.SUPABASE_ACCESS_TOKEN }}

@@ -1,51 +1,191 @@
-# Baby Steps Matrix Project
+# BabyStepsMatrix Enterprise System
 
-## GitHub + Supabase Integration
+A comprehensive enterprise system managing 82 businesses across different categories using modern cloud infrastructure and AI capabilities.
 
-This project is connected to Supabase project `oobqauxgqnvdqocnibiz` for database and authentication services.
+## Quick Start
 
-### Setup Instructions
-
-1. **Environment Variables**
-   Create a `.env` file with the following variables:
-   ```
-   SUPABASE_URL=your_supabase_url
-   SUPABASE_KEY=your_supabase_key
-   ```
-
-2. **Database Migrations**
-   - All database changes should be made through migration files in the `migrations/` directory
-   - Run migrations using: `supabase db push`
-
-3. **Development Workflow**
-   - Make changes to the codebase
-   - Create database migrations if needed
-   - Push changes to GitHub
-   - Supabase will automatically deploy changes
-
-### Project Structure
-```
-.
-├── migrations/          # Database migration files
-├── supabase/           # Supabase configuration
-│   └── config.toml     # Supabase settings
-└── README.md           # This file
-```
-
-### Useful Commands
+1. **Replit Setup**
 
 ```bash
-# Link to Supabase project
-supabase link --project-ref oobqauxgqnvdqocnibiz
+# Clone the repository in Replit
+git clone https://github.com/yourusername/babystepsmatrix1.git
 
-# Generate new migration
-supabase db diff --linked > migrations/$(date +%Y%m%d%H%M%S)_migration.sql
+# Install dependencies
+npm install
+pip install -r requirements.txt
 
-# Apply migrations
-supabase db push
+# Set up environment variables in Replit Secrets
+# Copy from .env.example
 ```
 
-### Resources
-- [Supabase Documentation](https://supabase.com/docs)
-- [GitHub Integration Guide](https://supabase.com/docs/guides/getting-started/github)
- 
+2. **Required Extensions in Cursor**
+
+- Python
+- TypeScript/JavaScript
+- ESLint
+- Prettier
+- Git Integration
+- Docker
+- Supabase
+- n8n Workflow
+- AI Tools Integration
+
+## Project Structure
+
+```
+babystepsmatrix1/
+├── ai_agents/               # AI agent implementations
+│   ├── mcp_crew.py         # Main control program crew
+│   └── support_bot.py      # Customer support AI
+├── automations/            # Automation workflows
+│   └── workflows/          # n8n workflow definitions
+├── companies/              # Business configurations
+│   ├── businesses.yaml     # Master business config
+│   └── configurations/     # Individual business configs
+├── src/
+│   ├── config/            # System configuration
+│   ├── services/          # Core services
+│   ├── routes/            # API routes
+│   └── utils/             # Utility functions
+└── scripts/               # Management scripts
+```
+
+## Core Features
+
+### 1. Business Categories
+
+- Foundation Companies (Infrastructure, Data, Security)
+- Innovation Companies (AI/ML, Blockchain, Robotics)
+- Relationship Companies (CRM, Social, Marketing)
+- Knowledge Companies (Education, Research, Analytics)
+
+### 2. Integrated Services
+
+- Supabase Database
+- n8n Workflow Automation
+- ElevenLabs Voice AI
+- OpenAI/Claude AI Integration
+- Stripe/Plaid Payments
+- AWS Infrastructure
+
+### 3. Automation Workflows
+
+- Company Onboarding
+- Performance Monitoring
+- Incident Management
+- Automated Reporting
+
+### 4. Security & Compliance
+
+- SOC2, GDPR, HIPAA Compliance
+- Multi-factor Authentication
+- Role-based Access Control
+- Encryption at Rest/Transit
+
+## Development Setup
+
+1. **Local Development**
+
+```bash
+# Install dependencies
+npm install
+pip install -r requirements.txt
+
+# Start development server
+npm run dev
+
+# Run tests
+npm test
+```
+
+2. **Environment Variables**
+   Copy `.env.example` to `.env` and fill in:
+
+```
+SUPABASE_URL=your_url
+SUPABASE_SERVICE_KEY=your_key
+OPENAI_API_KEY=your_key
+ELEVENLABS_API_KEY=your_key
+```
+
+3. **Database Setup**
+
+```bash
+# Initialize Supabase
+supabase init
+
+# Run migrations
+npm run migrate
+```
+
+## Deployment
+
+1. **Replit Deployment**
+
+- Fork the repository to your Replit account
+- Set up environment variables in Replit Secrets
+- Run the application using `npm run dev`
+
+2. **Production Deployment**
+
+```bash
+# Build the application
+npm run build
+
+# Start production server
+npm start
+```
+
+## AI Integration
+
+### 1. MCP Crew
+
+- Financial Analysis
+- Legal Compliance
+- Operations Management
+- Data Science
+
+### 2. Support Bot
+
+- Customer Service
+- Technical Support
+- Sales Assistance
+
+## Monitoring & Analytics
+
+1. **Health Checks**
+
+```bash
+# Run health check
+npm run test:health
+
+# Monitor all services
+npm run monitor
+```
+
+2. **Performance Metrics**
+
+- CPU/Memory Usage
+- API Latency
+- Error Rates
+- User Sessions
+
+## Contributing
+
+1. Fork the repository
+2. Create feature branch
+3. Commit changes
+4. Push to branch
+5. Create Pull Request
+
+## License
+
+MIT License - see LICENSE file
+
+## Support
+
+For support, email support@babystepsmatrix.com or join our Slack channel.
+
+## Documentation
+
+Full documentation available at `/docs`

@@ -1,0 +1,48 @@
+{
+  "extensions": {
+    "recommendations": [
+      "mtxr.sqltools",
+      "mtxr.sqltools-driver-pg",
+      "tabnine.tabnine-vscode",
+      "ghosttext.ghosttext",
+      "esbenp.prettier-vscode",
+      "supabase.supabase-vscode",
+      "n8n-io.n8n-workflow-generator",
+      "voiceflow.voiceflow-toolkit"
+    ]
+  },
+  "ai": {
+    "enabled": true,
+    "model": "gpt-4",
+    "temperature": 0.7,
+    "maxTokens": 2000,
+    "shortcuts": {
+      "openChat": "ctrl+shift+@",
+      "debug": "ctrl+alt+d"
+    }
+  },
+  "git": {
+    "autofetch": true,
+    "autopush": false
+  },
+  "editor": {
+    "formatOnSave": true,
+    "defaultFormatter": "esbenp.prettier-vscode",
+    "experimental": true,
+    "voiceCommands": false
+  },
+  "workflow": {
+    "supabase": {
+      "projectId": "oobqauxgqnvdqocnibiz",
+      "autoSync": true
+    },
+    "n8n": {
+      "enabled": true,
+      "templates": true
+    },
+    "voiceflow": {
+      "enabled": true,
+      "elevenlabs": true
+    }
+  }
+} 

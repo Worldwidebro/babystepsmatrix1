@@ -1,0 +1,56 @@
+companies:
+  - company_id: "UNIQUE_ID"
+    name: "Company Name"
+    category: "Foundation/Innovation/Relationship/Knowledge"
+    revenue_stream: "Subscription/Licensing/etc"
+    contact_email: "admin@example.com"
+    brand_colors:
+      - "#FFFFFF"
+      - "#000000"
+    target_audience: "Description of ideal customer"
+    key_performance_indicators:
+      - revenue
+      - customer_satisfaction
+    integrations:
+      supabase:
+        enabled: true
+        table: "companies"
+      n8n:
+        enabled: true
+        workflows:
+          - onboarding
+          - reporting
+      ai_agents:
+        enabled: true
+        models:
+          - mistral:7b
+          - llama2:13b
+    resources:
+      storage:
+        provider: "backblaze"
+        bucket: "company-docs"
+      database:
+        provider: "supabase"
+        schema: "public"
+      automation:
+        provider: "n8n"
+        workflows_dir: "/workflows"
+    compliance:
+      data_retention: "90days"
+      backup_frequency: "daily"
+      audit_logs: true
+    notifications:
+      slack:
+        enabled: true
+        webhook_url: ""
+      email:
+        enabled: true
+        smtp_config: {}
+    monitoring:
+      health_checks:
+        enabled: true
+        interval: "5m"
+      alerts:
+        cpu_threshold: 80
+        memory_threshold: 85
+        disk_threshold: 90
