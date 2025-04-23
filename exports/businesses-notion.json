@@ -1,0 +1,3479 @@
+[
+  {
+    "Name": {
+      "title": [
+        {
+          "text": {
+            "content": "Credit Repair Services"
+          }
+        }
+      ]
+    },
+    "Category": {
+      "select": {
+        "name": "FOUNDATION"
+      }
+    },
+    "Description": {
+      "rich_text": [
+        {
+          "text": {
+            "content": "Professional credit repair and optimization services for individuals and businesses"
+          }
+        }
+      ]
+    },
+    "Status": {
+      "select": {
+        "name": "active"
+      }
+    },
+    "Launch Date": {
+      "date": null
+    },
+    "Automation Level": {
+      "select": {
+        "name": "high"
+      }
+    },
+    "Startup Cost": {
+      "select": {
+        "name": "low"
+      }
+    },
+    "Time to Profit": {
+      "select": {
+        "name": "3-6 months"
+      }
+    },
+    "Key Features": {
+      "multi_select": [
+        {
+          "name": "Automated dispute letters"
+        },
+        {
+          "name": "Credit monitoring"
+        },
+        {
+          "name": "Score improvement tracking"
+        }
+      ]
+    }
+  },
+  {
+    "Name": {
+      "title": [
+        {
+          "text": {
+            "content": "Business Credit Building"
+          }
+        }
+      ]
+    },
+    "Category": {
+      "select": {
+        "name": "FOUNDATION"
+      }
+    },
+    "Description": {
+      "rich_text": [
+        {
+          "text": {
+            "content": "Help businesses establish and build their credit profiles"
+          }
+        }
+      ]
+    },
+    "Status": {
+      "select": {
+        "name": "active"
+      }
+    },
+    "Launch Date": {
+      "date": null
+    },
+    "Automation Level": {
+      "select": {
+        "name": "medium"
+      }
+    },
+    "Startup Cost": {
+      "select": {
+        "name": "low"
+      }
+    },
+    "Time to Profit": {
+      "select": {
+        "name": "6-12 months"
+      }
+    },
+    "Key Features": {
+      "multi_select": [
+        {
+          "name": "Credit line setup"
+        },
+        {
+          "name": "Vendor programs"
+        },
+        {
+          "name": "Credit monitoring"
+        }
+      ]
+    }
+  },
+  {
+    "Name": {
+      "title": [
+        {
+          "text": {
+            "content": "Personal Branding Agency"
+          }
+        }
+      ]
+    },
+    "Category": {
+      "select": {
+        "name": "FOUNDATION"
+      }
+    },
+    "Description": {
+      "rich_text": [
+        {
+          "text": {
+            "content": "Comprehensive personal brand development and management"
+          }
+        }
+      ]
+    },
+    "Status": {
+      "select": {
+        "name": "active"
+      }
+    },
+    "Launch Date": {
+      "date": null
+    },
+    "Automation Level": {
+      "select": {
+        "name": "medium"
+      }
+    },
+    "Startup Cost": {
+      "select": {
+        "name": "low"
+      }
+    },
+    "Time to Profit": {
+      "select": {
+        "name": "immediate"
+      }
+    },
+    "Key Features": {
+      "multi_select": [
+        {
+          "name": "Brand strategy"
+        },
+        {
+          "name": "Social media management"
+        },
+        {
+          "name": "Content creation"
+        }
+      ]
+    }
+  },
+  {
+    "Name": {
+      "title": [
+        {
+          "text": {
+            "content": "Photography Studio"
+          }
+        }
+      ]
+    },
+    "Category": {
+      "select": {
+        "name": "FOUNDATION"
+      }
+    },
+    "Description": {
+      "rich_text": [
+        {
+          "text": {
+            "content": "Professional photography services for businesses and individuals"
+          }
+        }
+      ]
+    },
+    "Status": {
+      "select": {
+        "name": "active"
+      }
+    },
+    "Launch Date": {
+      "date": null
+    },
+    "Automation Level": {
+      "select": {
+        "name": "medium"
+      }
+    },
+    "Startup Cost": {
+      "select": {
+        "name": "medium"
+      }
+    },
+    "Time to Profit": {
+      "select": {
+        "name": "3-6 months"
+      }
+    },
+    "Key Features": {
+      "multi_select": [
+        {
+          "name": "Commercial photography"
+        },
+        {
+          "name": "Event coverage"
+        },
+        {
+          "name": "Product shoots"
+        }
+      ]
+    }
+  },
+  {
+    "Name": {
+      "title": [
+        {
+          "text": {
+            "content": "Website Design Agency"
+          }
+        }
+      ]
+    },
+    "Category": {
+      "select": {
+        "name": "FOUNDATION"
+      }
+    },
+    "Description": {
+      "rich_text": [
+        {
+          "text": {
+            "content": "Custom website design and development services"
+          }
+        }
+      ]
+    },
+    "Status": {
+      "select": {
+        "name": "active"
+      }
+    },
+    "Launch Date": {
+      "date": null
+    },
+    "Automation Level": {
+      "select": {
+        "name": "high"
+      }
+    },
+    "Startup Cost": {
+      "select": {
+        "name": "low"
+      }
+    },
+    "Time to Profit": {
+      "select": {
+        "name": "immediate"
+      }
+    },
+    "Key Features": {
+      "multi_select": [
+        {
+          "name": "Custom design"
+        },
+        {
+          "name": "E-commerce solutions"
+        },
+        {
+          "name": "SEO optimization"
+        }
+      ]
+    }
+  },
+  {
+    "Name": {
+      "title": [
+        {
+          "text": {
+            "content": "AI Automation Agency"
+          }
+        }
+      ]
+    },
+    "Category": {
+      "select": {
+        "name": "INNOVATION"
+      }
+    },
+    "Description": {
+      "rich_text": [
+        {
+          "text": {
+            "content": "End-to-end automation solutions using Make, Sintra, and Zapier"
+          }
+        }
+      ]
+    },
+    "Status": {
+      "select": {
+        "name": "active"
+      }
+    },
+    "Launch Date": {
+      "date": null
+    },
+    "Automation Level": {
+      "select": {
+        "name": "high"
+      }
+    },
+    "Startup Cost": {
+      "select": {
+        "name": "low"
+      }
+    },
+    "Time to Profit": {
+      "select": {
+        "name": "3-6 months"
+      }
+    },
+    "Key Features": {
+      "multi_select": [
+        {
+          "name": "Process automation"
+        },
+        {
+          "name": "Integration development"
+        },
+        {
+          "name": "Workflow optimization"
+        }
+      ]
+    }
+  },
+  {
+    "Name": {
+      "title": [
+        {
+          "text": {
+            "content": "Slack Bot Integration Service"
+          }
+        }
+      ]
+    },
+    "Category": {
+      "select": {
+        "name": "INNOVATION"
+      }
+    },
+    "Description": {
+      "rich_text": [
+        {
+          "text": {
+            "content": "Custom Slack bot development and integration"
+          }
+        }
+      ]
+    },
+    "Status": {
+      "select": {
+        "name": "development"
+      }
+    },
+    "Launch Date": {
+      "date": null
+    },
+    "Automation Level": {
+      "select": {
+        "name": "high"
+      }
+    },
+    "Startup Cost": {
+      "select": {
+        "name": "low"
+      }
+    },
+    "Time to Profit": {
+      "select": {
+        "name": "3-6 months"
+      }
+    },
+    "Key Features": {
+      "multi_select": [
+        {
+          "name": "Custom bot development"
+        },
+        {
+          "name": "Workflow automation"
+        },
+        {
+          "name": "Integration services"
+        }
+      ]
+    }
+  },
+  {
+    "Name": {
+      "title": [
+        {
+          "text": {
+            "content": "Real Estate Investing Firm"
+          }
+        }
+      ]
+    },
+    "Category": {
+      "select": {
+        "name": "RELATIONSHIP"
+      }
+    },
+    "Description": {
+      "rich_text": [
+        {
+          "text": {
+            "content": "Property investment and portfolio management"
+          }
+        }
+      ]
+    },
+    "Status": {
+      "select": {
+        "name": "active"
+      }
+    },
+    "Launch Date": {
+      "date": null
+    },
+    "Automation Level": {
+      "select": {
+        "name": "medium"
+      }
+    },
+    "Startup Cost": {
+      "select": {
+        "name": "high"
+      }
+    },
+    "Time to Profit": {
+      "select": {
+        "name": "12+ months"
+      }
+    },
+    "Key Features": {
+      "multi_select": [
+        {
+          "name": "Property acquisition"
+        },
+        {
+          "name": "Portfolio management"
+        },
+        {
+          "name": "Investment strategy"
+        }
+      ]
+    }
+  },
+  {
+    "Name": {
+      "title": [
+        {
+          "text": {
+            "content": "Property Management Company"
+          }
+        }
+      ]
+    },
+    "Category": {
+      "select": {
+        "name": "RELATIONSHIP"
+      }
+    },
+    "Description": {
+      "rich_text": [
+        {
+          "text": {
+            "content": "Full-service property management solutions"
+          }
+        }
+      ]
+    },
+    "Status": {
+      "select": {
+        "name": "active"
+      }
+    },
+    "Launch Date": {
+      "date": null
+    },
+    "Automation Level": {
+      "select": {
+        "name": "medium"
+      }
+    },
+    "Startup Cost": {
+      "select": {
+        "name": "medium"
+      }
+    },
+    "Time to Profit": {
+      "select": {
+        "name": "6-12 months"
+      }
+    },
+    "Key Features": {
+      "multi_select": [
+        {
+          "name": "Tenant management"
+        },
+        {
+          "name": "Maintenance coordination"
+        },
+        {
+          "name": "Financial reporting"
+        }
+      ]
+    }
+  },
+  {
+    "Name": {
+      "title": [
+        {
+          "text": {
+            "content": "Angels in Daylight Fashion Brand"
+          }
+        }
+      ]
+    },
+    "Category": {
+      "select": {
+        "name": "KNOWLEDGE"
+      }
+    },
+    "Description": {
+      "rich_text": [
+        {
+          "text": {
+            "content": "Premium fashion brand with cultural significance"
+          }
+        }
+      ]
+    },
+    "Status": {
+      "select": {
+        "name": "active"
+      }
+    },
+    "Launch Date": {
+      "date": null
+    },
+    "Automation Level": {
+      "select": {
+        "name": "medium"
+      }
+    },
+    "Startup Cost": {
+      "select": {
+        "name": "high"
+      }
+    },
+    "Time to Profit": {
+      "select": {
+        "name": "12+ months"
+      }
+    },
+    "Key Features": {
+      "multi_select": [
+        {
+          "name": "Fashion design"
+        },
+        {
+          "name": "E-commerce"
+        },
+        {
+          "name": "Brand storytelling"
+        }
+      ]
+    }
+  },
+  {
+    "Name": {
+      "title": [
+        {
+          "text": {
+            "content": "Merch Brand for Ai Boss Holdings"
+          }
+        }
+      ]
+    },
+    "Category": {
+      "select": {
+        "name": "KNOWLEDGE"
+      }
+    },
+    "Description": {
+      "rich_text": [
+        {
+          "text": {
+            "content": "Official merchandise for the AI Boss Holdings ecosystem"
+          }
+        }
+      ]
+    },
+    "Status": {
+      "select": {
+        "name": "development"
+      }
+    },
+    "Launch Date": {
+      "date": null
+    },
+    "Automation Level": {
+      "select": {
+        "name": "high"
+      }
+    },
+    "Startup Cost": {
+      "select": {
+        "name": "medium"
+      }
+    },
+    "Time to Profit": {
+      "select": {
+        "name": "3-6 months"
+      }
+    },
+    "Key Features": {
+      "multi_select": [
+        {
+          "name": "Branded apparel"
+        },
+        {
+          "name": "Accessories"
+        },
+        {
+          "name": "Print on demand"
+        }
+      ]
+    }
+  },
+  {
+    "Name": {
+      "title": [
+        {
+          "text": {
+            "content": "Virtual Mailbox Services"
+          }
+        }
+      ]
+    },
+    "Category": {
+      "select": {
+        "name": "FOUNDATION"
+      }
+    },
+    "Description": {
+      "rich_text": [
+        {
+          "text": {
+            "content": "Digital mail management and forwarding services"
+          }
+        }
+      ]
+    },
+    "Status": {
+      "select": {
+        "name": "planned"
+      }
+    },
+    "Launch Date": {
+      "date": null
+    },
+    "Automation Level": {
+      "select": {
+        "name": "high"
+      }
+    },
+    "Startup Cost": {
+      "select": {
+        "name": "medium"
+      }
+    },
+    "Time to Profit": {
+      "select": {
+        "name": "6-12 months"
+      }
+    },
+    "Key Features": {
+      "multi_select": [
+        {
+          "name": "Mail scanning"
+        },
+        {
+          "name": "Package forwarding"
+        },
+        {
+          "name": "Digital archiving"
+        }
+      ]
+    }
+  },
+  {
+    "Name": {
+      "title": [
+        {
+          "text": {
+            "content": "Notary & Loan Signing Services"
+          }
+        }
+      ]
+    },
+    "Category": {
+      "select": {
+        "name": "FOUNDATION"
+      }
+    },
+    "Description": {
+      "rich_text": [
+        {
+          "text": {
+            "content": "Mobile notary and loan document signing services"
+          }
+        }
+      ]
+    },
+    "Status": {
+      "select": {
+        "name": "active"
+      }
+    },
+    "Launch Date": {
+      "date": null
+    },
+    "Automation Level": {
+      "select": {
+        "name": "low"
+      }
+    },
+    "Startup Cost": {
+      "select": {
+        "name": "low"
+      }
+    },
+    "Time to Profit": {
+      "select": {
+        "name": "immediate"
+      }
+    },
+    "Key Features": {
+      "multi_select": [
+        {
+          "name": "Mobile notary"
+        },
+        {
+          "name": "Loan signing"
+        },
+        {
+          "name": "Document certification"
+        }
+      ]
+    }
+  },
+  {
+    "Name": {
+      "title": [
+        {
+          "text": {
+            "content": "Digital Business Card Platform"
+          }
+        }
+      ]
+    },
+    "Category": {
+      "select": {
+        "name": "FOUNDATION"
+      }
+    },
+    "Description": {
+      "rich_text": [
+        {
+          "text": {
+            "content": "Modern digital business card solution"
+          }
+        }
+      ]
+    },
+    "Status": {
+      "select": {
+        "name": "development"
+      }
+    },
+    "Launch Date": {
+      "date": null
+    },
+    "Automation Level": {
+      "select": {
+        "name": "high"
+      }
+    },
+    "Startup Cost": {
+      "select": {
+        "name": "low"
+      }
+    },
+    "Time to Profit": {
+      "select": {
+        "name": "3-6 months"
+      }
+    },
+    "Key Features": {
+      "multi_select": [
+        {
+          "name": "NFC cards"
+        },
+        {
+          "name": "Digital profiles"
+        },
+        {
+          "name": "Analytics"
+        }
+      ]
+    }
+  },
+  {
+    "Name": {
+      "title": [
+        {
+          "text": {
+            "content": "SaaS: Lead Gen CRM"
+          }
+        }
+      ]
+    },
+    "Category": {
+      "select": {
+        "name": "INNOVATION"
+      }
+    },
+    "Description": {
+      "rich_text": [
+        {
+          "text": {
+            "content": "Automated lead generation and CRM platform"
+          }
+        }
+      ]
+    },
+    "Status": {
+      "select": {
+        "name": "development"
+      }
+    },
+    "Launch Date": {
+      "date": null
+    },
+    "Automation Level": {
+      "select": {
+        "name": "high"
+      }
+    },
+    "Startup Cost": {
+      "select": {
+        "name": "medium"
+      }
+    },
+    "Time to Profit": {
+      "select": {
+        "name": "6-12 months"
+      }
+    },
+    "Key Features": {
+      "multi_select": [
+        {
+          "name": "Lead scoring"
+        },
+        {
+          "name": "Email automation"
+        },
+        {
+          "name": "Pipeline management"
+        }
+      ]
+    }
+  },
+  {
+    "Name": {
+      "title": [
+        {
+          "text": {
+            "content": "SaaS: Workflow Tracker"
+          }
+        }
+      ]
+    },
+    "Category": {
+      "select": {
+        "name": "INNOVATION"
+      }
+    },
+    "Description": {
+      "rich_text": [
+        {
+          "text": {
+            "content": "Visual workflow and process management tool"
+          }
+        }
+      ]
+    },
+    "Status": {
+      "select": {
+        "name": "planned"
+      }
+    },
+    "Launch Date": {
+      "date": null
+    },
+    "Automation Level": {
+      "select": {
+        "name": "high"
+      }
+    },
+    "Startup Cost": {
+      "select": {
+        "name": "medium"
+      }
+    },
+    "Time to Profit": {
+      "select": {
+        "name": "6-12 months"
+      }
+    },
+    "Key Features": {
+      "multi_select": [
+        {
+          "name": "Process mapping"
+        },
+        {
+          "name": "Team collaboration"
+        },
+        {
+          "name": "Analytics"
+        }
+      ]
+    }
+  },
+  {
+    "Name": {
+      "title": [
+        {
+          "text": {
+            "content": "General Contracting Firm"
+          }
+        }
+      ]
+    },
+    "Category": {
+      "select": {
+        "name": "RELATIONSHIP"
+      }
+    },
+    "Description": {
+      "rich_text": [
+        {
+          "text": {
+            "content": "Full-service construction and renovation"
+          }
+        }
+      ]
+    },
+    "Status": {
+      "select": {
+        "name": "planned"
+      }
+    },
+    "Launch Date": {
+      "date": null
+    },
+    "Automation Level": {
+      "select": {
+        "name": "low"
+      }
+    },
+    "Startup Cost": {
+      "select": {
+        "name": "high"
+      }
+    },
+    "Time to Profit": {
+      "select": {
+        "name": "6-12 months"
+      }
+    },
+    "Key Features": {
+      "multi_select": [
+        {
+          "name": "Construction"
+        },
+        {
+          "name": "Renovation"
+        },
+        {
+          "name": "Project management"
+        }
+      ]
+    }
+  },
+  {
+    "Name": {
+      "title": [
+        {
+          "text": {
+            "content": "HVAC & Electrical Company"
+          }
+        }
+      ]
+    },
+    "Category": {
+      "select": {
+        "name": "RELATIONSHIP"
+      }
+    },
+    "Description": {
+      "rich_text": [
+        {
+          "text": {
+            "content": "Professional HVAC and electrical services"
+          }
+        }
+      ]
+    },
+    "Status": {
+      "select": {
+        "name": "planned"
+      }
+    },
+    "Launch Date": {
+      "date": null
+    },
+    "Automation Level": {
+      "select": {
+        "name": "medium"
+      }
+    },
+    "Startup Cost": {
+      "select": {
+        "name": "high"
+      }
+    },
+    "Time to Profit": {
+      "select": {
+        "name": "3-6 months"
+      }
+    },
+    "Key Features": {
+      "multi_select": [
+        {
+          "name": "HVAC service"
+        },
+        {
+          "name": "Electrical work"
+        },
+        {
+          "name": "24/7 support"
+        }
+      ]
+    }
+  },
+  {
+    "Name": {
+      "title": [
+        {
+          "text": {
+            "content": "Children's Clothing Line"
+          }
+        }
+      ]
+    },
+    "Category": {
+      "select": {
+        "name": "KNOWLEDGE"
+      }
+    },
+    "Description": {
+      "rich_text": [
+        {
+          "text": {
+            "content": "Angels in Daylight sub-brand for children"
+          }
+        }
+      ]
+    },
+    "Status": {
+      "select": {
+        "name": "planned"
+      }
+    },
+    "Launch Date": {
+      "date": null
+    },
+    "Automation Level": {
+      "select": {
+        "name": "medium"
+      }
+    },
+    "Startup Cost": {
+      "select": {
+        "name": "high"
+      }
+    },
+    "Time to Profit": {
+      "select": {
+        "name": "12+ months"
+      }
+    },
+    "Key Features": {
+      "multi_select": [
+        {
+          "name": "Kids fashion"
+        },
+        {
+          "name": "Sustainable materials"
+        },
+        {
+          "name": "Educational elements"
+        }
+      ]
+    }
+  },
+  {
+    "Name": {
+      "title": [
+        {
+          "text": {
+            "content": "Digital Academy"
+          }
+        }
+      ]
+    },
+    "Category": {
+      "select": {
+        "name": "KNOWLEDGE"
+      }
+    },
+    "Description": {
+      "rich_text": [
+        {
+          "text": {
+            "content": "Business automation education platform"
+          }
+        }
+      ]
+    },
+    "Status": {
+      "select": {
+        "name": "active"
+      }
+    },
+    "Launch Date": {
+      "date": null
+    },
+    "Automation Level": {
+      "select": {
+        "name": "high"
+      }
+    },
+    "Startup Cost": {
+      "select": {
+        "name": "medium"
+      }
+    },
+    "Time to Profit": {
+      "select": {
+        "name": "3-6 months"
+      }
+    },
+    "Key Features": {
+      "multi_select": [
+        {
+          "name": "Online courses"
+        },
+        {
+          "name": "Live workshops"
+        },
+        {
+          "name": "Community support"
+        }
+      ]
+    }
+  },
+  {
+    "Name": {
+      "title": [
+        {
+          "text": {
+            "content": "Local SEO & Google My Business Optimization"
+          }
+        }
+      ]
+    },
+    "Category": {
+      "select": {
+        "name": "FOUNDATION"
+      }
+    },
+    "Description": {
+      "rich_text": [
+        {
+          "text": {
+            "content": "Local business visibility optimization"
+          }
+        }
+      ]
+    },
+    "Status": {
+      "select": {
+        "name": "active"
+      }
+    },
+    "Launch Date": {
+      "date": null
+    },
+    "Automation Level": {
+      "select": {
+        "name": "high"
+      }
+    },
+    "Startup Cost": {
+      "select": {
+        "name": "low"
+      }
+    },
+    "Time to Profit": {
+      "select": {
+        "name": "3-6 months"
+      }
+    },
+    "Key Features": {
+      "multi_select": [
+        {
+          "name": "GMB optimization"
+        },
+        {
+          "name": "Local citations"
+        },
+        {
+          "name": "Review management"
+        }
+      ]
+    }
+  },
+  {
+    "Name": {
+      "title": [
+        {
+          "text": {
+            "content": "Business Formation Services"
+          }
+        }
+      ]
+    },
+    "Category": {
+      "select": {
+        "name": "FOUNDATION"
+      }
+    },
+    "Description": {
+      "rich_text": [
+        {
+          "text": {
+            "content": "Complete business setup and registration services"
+          }
+        }
+      ]
+    },
+    "Status": {
+      "select": {
+        "name": "active"
+      }
+    },
+    "Launch Date": {
+      "date": null
+    },
+    "Automation Level": {
+      "select": {
+        "name": "high"
+      }
+    },
+    "Startup Cost": {
+      "select": {
+        "name": "low"
+      }
+    },
+    "Time to Profit": {
+      "select": {
+        "name": "immediate"
+      }
+    },
+    "Key Features": {
+      "multi_select": [
+        {
+          "name": "LLC formation"
+        },
+        {
+          "name": "Document filing"
+        },
+        {
+          "name": "Compliance support"
+        }
+      ]
+    }
+  },
+  {
+    "Name": {
+      "title": [
+        {
+          "text": {
+            "content": "AI-Powered Resume & LinkedIn Optimization"
+          }
+        }
+      ]
+    },
+    "Category": {
+      "select": {
+        "name": "FOUNDATION"
+      }
+    },
+    "Description": {
+      "rich_text": [
+        {
+          "text": {
+            "content": "Career document optimization using AI"
+          }
+        }
+      ]
+    },
+    "Status": {
+      "select": {
+        "name": "development"
+      }
+    },
+    "Launch Date": {
+      "date": null
+    },
+    "Automation Level": {
+      "select": {
+        "name": "high"
+      }
+    },
+    "Startup Cost": {
+      "select": {
+        "name": "low"
+      }
+    },
+    "Time to Profit": {
+      "select": {
+        "name": "immediate"
+      }
+    },
+    "Key Features": {
+      "multi_select": [
+        {
+          "name": "Resume writing"
+        },
+        {
+          "name": "LinkedIn optimization"
+        },
+        {
+          "name": "Career coaching"
+        }
+      ]
+    }
+  },
+  {
+    "Name": {
+      "title": [
+        {
+          "text": {
+            "content": "AI Virtual Assistant Marketplace"
+          }
+        }
+      ]
+    },
+    "Category": {
+      "select": {
+        "name": "INNOVATION"
+      }
+    },
+    "Description": {
+      "rich_text": [
+        {
+          "text": {
+            "content": "Platform connecting businesses with AI assistants"
+          }
+        }
+      ]
+    },
+    "Status": {
+      "select": {
+        "name": "development"
+      }
+    },
+    "Launch Date": {
+      "date": null
+    },
+    "Automation Level": {
+      "select": {
+        "name": "high"
+      }
+    },
+    "Startup Cost": {
+      "select": {
+        "name": "medium"
+      }
+    },
+    "Time to Profit": {
+      "select": {
+        "name": "6-12 months"
+      }
+    },
+    "Key Features": {
+      "multi_select": [
+        {
+          "name": "AI matching"
+        },
+        {
+          "name": "Task management"
+        },
+        {
+          "name": "Performance tracking"
+        }
+      ]
+    }
+  },
+  {
+    "Name": {
+      "title": [
+        {
+          "text": {
+            "content": "White-label Chatbot Builder"
+          }
+        }
+      ]
+    },
+    "Category": {
+      "select": {
+        "name": "INNOVATION"
+      }
+    },
+    "Description": {
+      "rich_text": [
+        {
+          "text": {
+            "content": "Custom chatbot development platform"
+          }
+        }
+      ]
+    },
+    "Status": {
+      "select": {
+        "name": "development"
+      }
+    },
+    "Launch Date": {
+      "date": null
+    },
+    "Automation Level": {
+      "select": {
+        "name": "high"
+      }
+    },
+    "Startup Cost": {
+      "select": {
+        "name": "medium"
+      }
+    },
+    "Time to Profit": {
+      "select": {
+        "name": "6-12 months"
+      }
+    },
+    "Key Features": {
+      "multi_select": [
+        {
+          "name": "Visual builder"
+        },
+        {
+          "name": "AI integration"
+        },
+        {
+          "name": "Analytics dashboard"
+        }
+      ]
+    }
+  },
+  {
+    "Name": {
+      "title": [
+        {
+          "text": {
+            "content": "Inklyfe Tattoo Shop"
+          }
+        }
+      ]
+    },
+    "Category": {
+      "select": {
+        "name": "RELATIONSHIP"
+      }
+    },
+    "Description": {
+      "rich_text": [
+        {
+          "text": {
+            "content": "Premium tattoo and body art studio"
+          }
+        }
+      ]
+    },
+    "Status": {
+      "select": {
+        "name": "planned"
+      }
+    },
+    "Launch Date": {
+      "date": null
+    },
+    "Automation Level": {
+      "select": {
+        "name": "low"
+      }
+    },
+    "Startup Cost": {
+      "select": {
+        "name": "medium"
+      }
+    },
+    "Time to Profit": {
+      "select": {
+        "name": "3-6 months"
+      }
+    },
+    "Key Features": {
+      "multi_select": [
+        {
+          "name": "Custom designs"
+        },
+        {
+          "name": "Professional artists"
+        },
+        {
+          "name": "Sterile environment"
+        }
+      ]
+    }
+  },
+  {
+    "Name": {
+      "title": [
+        {
+          "text": {
+            "content": "Men's Grooming Lounge"
+          }
+        }
+      ]
+    },
+    "Category": {
+      "select": {
+        "name": "RELATIONSHIP"
+      }
+    },
+    "Description": {
+      "rich_text": [
+        {
+          "text": {
+            "content": "Upscale barbershop and grooming services"
+          }
+        }
+      ]
+    },
+    "Status": {
+      "select": {
+        "name": "planned"
+      }
+    },
+    "Launch Date": {
+      "date": null
+    },
+    "Automation Level": {
+      "select": {
+        "name": "low"
+      }
+    },
+    "Startup Cost": {
+      "select": {
+        "name": "medium"
+      }
+    },
+    "Time to Profit": {
+      "select": {
+        "name": "immediate"
+      }
+    },
+    "Key Features": {
+      "multi_select": [
+        {
+          "name": "Premium cuts"
+        },
+        {
+          "name": "Grooming services"
+        },
+        {
+          "name": "VIP experience"
+        }
+      ]
+    }
+  },
+  {
+    "Name": {
+      "title": [
+        {
+          "text": {
+            "content": "Make.com & Sintra AI Certification Course"
+          }
+        }
+      ]
+    },
+    "Category": {
+      "select": {
+        "name": "KNOWLEDGE"
+      }
+    },
+    "Description": {
+      "rich_text": [
+        {
+          "text": {
+            "content": "Professional automation tool certification"
+          }
+        }
+      ]
+    },
+    "Status": {
+      "select": {
+        "name": "development"
+      }
+    },
+    "Launch Date": {
+      "date": null
+    },
+    "Automation Level": {
+      "select": {
+        "name": "high"
+      }
+    },
+    "Startup Cost": {
+      "select": {
+        "name": "low"
+      }
+    },
+    "Time to Profit": {
+      "select": {
+        "name": "immediate"
+      }
+    },
+    "Key Features": {
+      "multi_select": [
+        {
+          "name": "Video courses"
+        },
+        {
+          "name": "Hands-on projects"
+        },
+        {
+          "name": "Certification exam"
+        }
+      ]
+    }
+  },
+  {
+    "Name": {
+      "title": [
+        {
+          "text": {
+            "content": "E-learning Platform for Credit & Financial Literacy"
+          }
+        }
+      ]
+    },
+    "Category": {
+      "select": {
+        "name": "KNOWLEDGE"
+      }
+    },
+    "Description": {
+      "rich_text": [
+        {
+          "text": {
+            "content": "Comprehensive financial education platform"
+          }
+        }
+      ]
+    },
+    "Status": {
+      "select": {
+        "name": "development"
+      }
+    },
+    "Launch Date": {
+      "date": null
+    },
+    "Automation Level": {
+      "select": {
+        "name": "high"
+      }
+    },
+    "Startup Cost": {
+      "select": {
+        "name": "medium"
+      }
+    },
+    "Time to Profit": {
+      "select": {
+        "name": "3-6 months"
+      }
+    },
+    "Key Features": {
+      "multi_select": [
+        {
+          "name": "Interactive courses"
+        },
+        {
+          "name": "Financial tools"
+        },
+        {
+          "name": "Community support"
+        }
+      ]
+    }
+  },
+  {
+    "Name": {
+      "title": [
+        {
+          "text": {
+            "content": "Automated Bookkeeping & Accounting"
+          }
+        }
+      ]
+    },
+    "Category": {
+      "select": {
+        "name": "FOUNDATION"
+      }
+    },
+    "Description": {
+      "rich_text": [
+        {
+          "text": {
+            "content": "AI-powered bookkeeping and accounting services"
+          }
+        }
+      ]
+    },
+    "Status": {
+      "select": {
+        "name": "development"
+      }
+    },
+    "Launch Date": {
+      "date": null
+    },
+    "Automation Level": {
+      "select": {
+        "name": "high"
+      }
+    },
+    "Startup Cost": {
+      "select": {
+        "name": "medium"
+      }
+    },
+    "Time to Profit": {
+      "select": {
+        "name": "3-6 months"
+      }
+    },
+    "Key Features": {
+      "multi_select": [
+        {
+          "name": "Automated reconciliation"
+        },
+        {
+          "name": "Financial reporting"
+        },
+        {
+          "name": "Tax prep"
+        }
+      ]
+    }
+  },
+  {
+    "Name": {
+      "title": [
+        {
+          "text": {
+            "content": "U-Haul Rental Affiliate"
+          }
+        }
+      ]
+    },
+    "Category": {
+      "select": {
+        "name": "FOUNDATION"
+      }
+    },
+    "Description": {
+      "rich_text": [
+        {
+          "text": {
+            "content": "U-Haul truck and equipment rental franchise"
+          }
+        }
+      ]
+    },
+    "Status": {
+      "select": {
+        "name": "planned"
+      }
+    },
+    "Launch Date": {
+      "date": null
+    },
+    "Automation Level": {
+      "select": {
+        "name": "medium"
+      }
+    },
+    "Startup Cost": {
+      "select": {
+        "name": "high"
+      }
+    },
+    "Time to Profit": {
+      "select": {
+        "name": "6-12 months"
+      }
+    },
+    "Key Features": {
+      "multi_select": [
+        {
+          "name": "Truck rental"
+        },
+        {
+          "name": "Moving supplies"
+        },
+        {
+          "name": "Storage solutions"
+        }
+      ]
+    }
+  },
+  {
+    "Name": {
+      "title": [
+        {
+          "text": {
+            "content": "Vending Machine Business"
+          }
+        }
+      ]
+    },
+    "Category": {
+      "select": {
+        "name": "FOUNDATION"
+      }
+    },
+    "Description": {
+      "rich_text": [
+        {
+          "text": {
+            "content": "Smart vending machine network"
+          }
+        }
+      ]
+    },
+    "Status": {
+      "select": {
+        "name": "planned"
+      }
+    },
+    "Launch Date": {
+      "date": null
+    },
+    "Automation Level": {
+      "select": {
+        "name": "high"
+      }
+    },
+    "Startup Cost": {
+      "select": {
+        "name": "medium"
+      }
+    },
+    "Time to Profit": {
+      "select": {
+        "name": "6-12 months"
+      }
+    },
+    "Key Features": {
+      "multi_select": [
+        {
+          "name": "Smart machines"
+        },
+        {
+          "name": "Inventory tracking"
+        },
+        {
+          "name": "Mobile payments"
+        }
+      ]
+    }
+  },
+  {
+    "Name": {
+      "title": [
+        {
+          "text": {
+            "content": "AI Sales Copywriter Tool"
+          }
+        }
+      ]
+    },
+    "Category": {
+      "select": {
+        "name": "INNOVATION"
+      }
+    },
+    "Description": {
+      "rich_text": [
+        {
+          "text": {
+            "content": "AI-powered sales copy generation platform"
+          }
+        }
+      ]
+    },
+    "Status": {
+      "select": {
+        "name": "development"
+      }
+    },
+    "Launch Date": {
+      "date": null
+    },
+    "Automation Level": {
+      "select": {
+        "name": "high"
+      }
+    },
+    "Startup Cost": {
+      "select": {
+        "name": "medium"
+      }
+    },
+    "Time to Profit": {
+      "select": {
+        "name": "3-6 months"
+      }
+    },
+    "Key Features": {
+      "multi_select": [
+        {
+          "name": "Copy generation"
+        },
+        {
+          "name": "A/B testing"
+        },
+        {
+          "name": "Performance analytics"
+        }
+      ]
+    }
+  },
+  {
+    "Name": {
+      "title": [
+        {
+          "text": {
+            "content": "AI-Powered Funnel Builder"
+          }
+        }
+      ]
+    },
+    "Category": {
+      "select": {
+        "name": "INNOVATION"
+      }
+    },
+    "Description": {
+      "rich_text": [
+        {
+          "text": {
+            "content": "Intelligent sales funnel creation platform"
+          }
+        }
+      ]
+    },
+    "Status": {
+      "select": {
+        "name": "development"
+      }
+    },
+    "Launch Date": {
+      "date": null
+    },
+    "Automation Level": {
+      "select": {
+        "name": "high"
+      }
+    },
+    "Startup Cost": {
+      "select": {
+        "name": "medium"
+      }
+    },
+    "Time to Profit": {
+      "select": {
+        "name": "6-12 months"
+      }
+    },
+    "Key Features": {
+      "multi_select": [
+        {
+          "name": "Visual builder"
+        },
+        {
+          "name": "AI optimization"
+        },
+        {
+          "name": "Conversion tracking"
+        }
+      ]
+    }
+  },
+  {
+    "Name": {
+      "title": [
+        {
+          "text": {
+            "content": "Mobile Food Truck Fleet"
+          }
+        }
+      ]
+    },
+    "Category": {
+      "select": {
+        "name": "RELATIONSHIP"
+      }
+    },
+    "Description": {
+      "rich_text": [
+        {
+          "text": {
+            "content": "Fleet of gourmet food trucks"
+          }
+        }
+      ]
+    },
+    "Status": {
+      "select": {
+        "name": "planned"
+      }
+    },
+    "Launch Date": {
+      "date": null
+    },
+    "Automation Level": {
+      "select": {
+        "name": "medium"
+      }
+    },
+    "Startup Cost": {
+      "select": {
+        "name": "high"
+      }
+    },
+    "Time to Profit": {
+      "select": {
+        "name": "6-12 months"
+      }
+    },
+    "Key Features": {
+      "multi_select": [
+        {
+          "name": "Gourmet menu"
+        },
+        {
+          "name": "Event catering"
+        },
+        {
+          "name": "Location tracking"
+        }
+      ]
+    }
+  },
+  {
+    "Name": {
+      "title": [
+        {
+          "text": {
+            "content": "Community Outreach Nonprofit"
+          }
+        }
+      ]
+    },
+    "Category": {
+      "select": {
+        "name": "RELATIONSHIP"
+      }
+    },
+    "Description": {
+      "rich_text": [
+        {
+          "text": {
+            "content": "Worldwide Giving Network for community support"
+          }
+        }
+      ]
+    },
+    "Status": {
+      "select": {
+        "name": "planned"
+      }
+    },
+    "Launch Date": {
+      "date": null
+    },
+    "Automation Level": {
+      "select": {
+        "name": "medium"
+      }
+    },
+    "Startup Cost": {
+      "select": {
+        "name": "low"
+      }
+    },
+    "Time to Profit": {
+      "select": {
+        "name": "12+ months"
+      }
+    },
+    "Key Features": {
+      "multi_select": [
+        {
+          "name": "Community programs"
+        },
+        {
+          "name": "Donation management"
+        },
+        {
+          "name": "Impact tracking"
+        }
+      ]
+    }
+  },
+  {
+    "Name": {
+      "title": [
+        {
+          "text": {
+            "content": "Youth Entrepreneurship Curriculum"
+          }
+        }
+      ]
+    },
+    "Category": {
+      "select": {
+        "name": "KNOWLEDGE"
+      }
+    },
+    "Description": {
+      "rich_text": [
+        {
+          "text": {
+            "content": "Entrepreneurship education for young people"
+          }
+        }
+      ]
+    },
+    "Status": {
+      "select": {
+        "name": "development"
+      }
+    },
+    "Launch Date": {
+      "date": null
+    },
+    "Automation Level": {
+      "select": {
+        "name": "medium"
+      }
+    },
+    "Startup Cost": {
+      "select": {
+        "name": "low"
+      }
+    },
+    "Time to Profit": {
+      "select": {
+        "name": "6-12 months"
+      }
+    },
+    "Key Features": {
+      "multi_select": [
+        {
+          "name": "Interactive lessons"
+        },
+        {
+          "name": "Mentorship"
+        },
+        {
+          "name": "Project-based learning"
+        }
+      ]
+    }
+  },
+  {
+    "Name": {
+      "title": [
+        {
+          "text": {
+            "content": "Home-schooling Content for Fathers & Sons"
+          }
+        }
+      ]
+    },
+    "Category": {
+      "select": {
+        "name": "KNOWLEDGE"
+      }
+    },
+    "Description": {
+      "rich_text": [
+        {
+          "text": {
+            "content": "Specialized homeschooling curriculum"
+          }
+        }
+      ]
+    },
+    "Status": {
+      "select": {
+        "name": "planned"
+      }
+    },
+    "Launch Date": {
+      "date": null
+    },
+    "Automation Level": {
+      "select": {
+        "name": "medium"
+      }
+    },
+    "Startup Cost": {
+      "select": {
+        "name": "low"
+      }
+    },
+    "Time to Profit": {
+      "select": {
+        "name": "6-12 months"
+      }
+    },
+    "Key Features": {
+      "multi_select": [
+        {
+          "name": "Custom curriculum"
+        },
+        {
+          "name": "Activity guides"
+        },
+        {
+          "name": "Progress tracking"
+        }
+      ]
+    }
+  },
+  {
+    "Name": {
+      "title": [
+        {
+          "text": {
+            "content": "Storage Units"
+          }
+        }
+      ]
+    },
+    "Category": {
+      "select": {
+        "name": "FOUNDATION"
+      }
+    },
+    "Description": {
+      "rich_text": [
+        {
+          "text": {
+            "content": "Smart self-storage facility network"
+          }
+        }
+      ]
+    },
+    "Status": {
+      "select": {
+        "name": "planned"
+      }
+    },
+    "Launch Date": {
+      "date": null
+    },
+    "Automation Level": {
+      "select": {
+        "name": "high"
+      }
+    },
+    "Startup Cost": {
+      "select": {
+        "name": "high"
+      }
+    },
+    "Time to Profit": {
+      "select": {
+        "name": "12+ months"
+      }
+    },
+    "Key Features": {
+      "multi_select": [
+        {
+          "name": "24/7 access"
+        },
+        {
+          "name": "Climate control"
+        },
+        {
+          "name": "Security monitoring"
+        }
+      ]
+    }
+  },
+  {
+    "Name": {
+      "title": [
+        {
+          "text": {
+            "content": "Tax Prep & Filing Services"
+          }
+        }
+      ]
+    },
+    "Category": {
+      "select": {
+        "name": "FOUNDATION"
+      }
+    },
+    "Description": {
+      "rich_text": [
+        {
+          "text": {
+            "content": "Professional tax preparation services"
+          }
+        }
+      ]
+    },
+    "Status": {
+      "select": {
+        "name": "planned"
+      }
+    },
+    "Launch Date": {
+      "date": null
+    },
+    "Automation Level": {
+      "select": {
+        "name": "high"
+      }
+    },
+    "Startup Cost": {
+      "select": {
+        "name": "low"
+      }
+    },
+    "Time to Profit": {
+      "select": {
+        "name": "immediate"
+      }
+    },
+    "Key Features": {
+      "multi_select": [
+        {
+          "name": "Tax preparation"
+        },
+        {
+          "name": "Electronic filing"
+        },
+        {
+          "name": "Tax planning"
+        }
+      ]
+    }
+  },
+  {
+    "Name": {
+      "title": [
+        {
+          "text": {
+            "content": "Car Rental Fleet"
+          }
+        }
+      ]
+    },
+    "Category": {
+      "select": {
+        "name": "FOUNDATION"
+      }
+    },
+    "Description": {
+      "rich_text": [
+        {
+          "text": {
+            "content": "Premium car rental service"
+          }
+        }
+      ]
+    },
+    "Status": {
+      "select": {
+        "name": "planned"
+      }
+    },
+    "Launch Date": {
+      "date": null
+    },
+    "Automation Level": {
+      "select": {
+        "name": "high"
+      }
+    },
+    "Startup Cost": {
+      "select": {
+        "name": "high"
+      }
+    },
+    "Time to Profit": {
+      "select": {
+        "name": "12+ months"
+      }
+    },
+    "Key Features": {
+      "multi_select": [
+        {
+          "name": "Luxury vehicles"
+        },
+        {
+          "name": "Mobile app"
+        },
+        {
+          "name": "Contactless rental"
+        }
+      ]
+    }
+  },
+  {
+    "Name": {
+      "title": [
+        {
+          "text": {
+            "content": "Smart Form Builder with Logic"
+          }
+        }
+      ]
+    },
+    "Category": {
+      "select": {
+        "name": "INNOVATION"
+      }
+    },
+    "Description": {
+      "rich_text": [
+        {
+          "text": {
+            "content": "Intelligent form creation platform"
+          }
+        }
+      ]
+    },
+    "Status": {
+      "select": {
+        "name": "development"
+      }
+    },
+    "Launch Date": {
+      "date": null
+    },
+    "Automation Level": {
+      "select": {
+        "name": "high"
+      }
+    },
+    "Startup Cost": {
+      "select": {
+        "name": "medium"
+      }
+    },
+    "Time to Profit": {
+      "select": {
+        "name": "6-12 months"
+      }
+    },
+    "Key Features": {
+      "multi_select": [
+        {
+          "name": "Conditional logic"
+        },
+        {
+          "name": "Integration options"
+        },
+        {
+          "name": "Analytics"
+        }
+      ]
+    }
+  },
+  {
+    "Name": {
+      "title": [
+        {
+          "text": {
+            "content": "Custom Data Dashboards"
+          }
+        }
+      ]
+    },
+    "Category": {
+      "select": {
+        "name": "INNOVATION"
+      }
+    },
+    "Description": {
+      "rich_text": [
+        {
+          "text": {
+            "content": "Business intelligence dashboard platform"
+          }
+        }
+      ]
+    },
+    "Status": {
+      "select": {
+        "name": "development"
+      }
+    },
+    "Launch Date": {
+      "date": null
+    },
+    "Automation Level": {
+      "select": {
+        "name": "high"
+      }
+    },
+    "Startup Cost": {
+      "select": {
+        "name": "medium"
+      }
+    },
+    "Time to Profit": {
+      "select": {
+        "name": "6-12 months"
+      }
+    },
+    "Key Features": {
+      "multi_select": [
+        {
+          "name": "Custom widgets"
+        },
+        {
+          "name": "Data integration"
+        },
+        {
+          "name": "Real-time updates"
+        }
+      ]
+    }
+  },
+  {
+    "Name": {
+      "title": [
+        {
+          "text": {
+            "content": "Private Membership Club"
+          }
+        }
+      ]
+    },
+    "Category": {
+      "select": {
+        "name": "RELATIONSHIP"
+      }
+    },
+    "Description": {
+      "rich_text": [
+        {
+          "text": {
+            "content": "Exclusive networking and lifestyle club"
+          }
+        }
+      ]
+    },
+    "Status": {
+      "select": {
+        "name": "planned"
+      }
+    },
+    "Launch Date": {
+      "date": null
+    },
+    "Automation Level": {
+      "select": {
+        "name": "medium"
+      }
+    },
+    "Startup Cost": {
+      "select": {
+        "name": "high"
+      }
+    },
+    "Time to Profit": {
+      "select": {
+        "name": "12+ months"
+      }
+    },
+    "Key Features": {
+      "multi_select": [
+        {
+          "name": "Exclusive events"
+        },
+        {
+          "name": "Networking"
+        },
+        {
+          "name": "Concierge service"
+        }
+      ]
+    }
+  },
+  {
+    "Name": {
+      "title": [
+        {
+          "text": {
+            "content": "Podcast Network"
+          }
+        }
+      ]
+    },
+    "Category": {
+      "select": {
+        "name": "RELATIONSHIP"
+      }
+    },
+    "Description": {
+      "rich_text": [
+        {
+          "text": {
+            "content": "Network of business and lifestyle podcasts"
+          }
+        }
+      ]
+    },
+    "Status": {
+      "select": {
+        "name": "development"
+      }
+    },
+    "Launch Date": {
+      "date": null
+    },
+    "Automation Level": {
+      "select": {
+        "name": "medium"
+      }
+    },
+    "Startup Cost": {
+      "select": {
+        "name": "medium"
+      }
+    },
+    "Time to Profit": {
+      "select": {
+        "name": "6-12 months"
+      }
+    },
+    "Key Features": {
+      "multi_select": [
+        {
+          "name": "Original content"
+        },
+        {
+          "name": "Advertising"
+        },
+        {
+          "name": "Distribution"
+        }
+      ]
+    }
+  },
+  {
+    "Name": {
+      "title": [
+        {
+          "text": {
+            "content": "AI-Powered Tutoring Platform"
+          }
+        }
+      ]
+    },
+    "Category": {
+      "select": {
+        "name": "KNOWLEDGE"
+      }
+    },
+    "Description": {
+      "rich_text": [
+        {
+          "text": {
+            "content": "Personalized AI tutoring service"
+          }
+        }
+      ]
+    },
+    "Status": {
+      "select": {
+        "name": "development"
+      }
+    },
+    "Launch Date": {
+      "date": null
+    },
+    "Automation Level": {
+      "select": {
+        "name": "high"
+      }
+    },
+    "Startup Cost": {
+      "select": {
+        "name": "medium"
+      }
+    },
+    "Time to Profit": {
+      "select": {
+        "name": "6-12 months"
+      }
+    },
+    "Key Features": {
+      "multi_select": [
+        {
+          "name": "AI tutors"
+        },
+        {
+          "name": "Adaptive learning"
+        },
+        {
+          "name": "Progress tracking"
+        }
+      ]
+    }
+  },
+  {
+    "Name": {
+      "title": [
+        {
+          "text": {
+            "content": "Branding & Design Templates Marketplace"
+          }
+        }
+      ]
+    },
+    "Category": {
+      "select": {
+        "name": "KNOWLEDGE"
+      }
+    },
+    "Description": {
+      "rich_text": [
+        {
+          "text": {
+            "content": "Premium design template platform"
+          }
+        }
+      ]
+    },
+    "Status": {
+      "select": {
+        "name": "development"
+      }
+    },
+    "Launch Date": {
+      "date": null
+    },
+    "Automation Level": {
+      "select": {
+        "name": "high"
+      }
+    },
+    "Startup Cost": {
+      "select": {
+        "name": "low"
+      }
+    },
+    "Time to Profit": {
+      "select": {
+        "name": "3-6 months"
+      }
+    },
+    "Key Features": {
+      "multi_select": [
+        {
+          "name": "Premium templates"
+        },
+        {
+          "name": "Custom branding"
+        },
+        {
+          "name": "Design tools"
+        }
+      ]
+    }
+  },
+  {
+    "Name": {
+      "title": [
+        {
+          "text": {
+            "content": "Affiliate Marketing Hubs"
+          }
+        }
+      ]
+    },
+    "Category": {
+      "select": {
+        "name": "FOUNDATION"
+      }
+    },
+    "Description": {
+      "rich_text": [
+        {
+          "text": {
+            "content": "Network of affiliate marketing websites"
+          }
+        }
+      ]
+    },
+    "Status": {
+      "select": {
+        "name": "planned"
+      }
+    },
+    "Launch Date": {
+      "date": null
+    },
+    "Automation Level": {
+      "select": {
+        "name": "high"
+      }
+    },
+    "Startup Cost": {
+      "select": {
+        "name": "low"
+      }
+    },
+    "Time to Profit": {
+      "select": {
+        "name": "6-12 months"
+      }
+    },
+    "Key Features": {
+      "multi_select": [
+        {
+          "name": "Niche websites"
+        },
+        {
+          "name": "Content automation"
+        },
+        {
+          "name": "Affiliate tracking"
+        }
+      ]
+    }
+  },
+  {
+    "Name": {
+      "title": [
+        {
+          "text": {
+            "content": "Monthly Subscription Boxes"
+          }
+        }
+      ]
+    },
+    "Category": {
+      "select": {
+        "name": "FOUNDATION"
+      }
+    },
+    "Description": {
+      "rich_text": [
+        {
+          "text": {
+            "content": "Curated subscription box service"
+          }
+        }
+      ]
+    },
+    "Status": {
+      "select": {
+        "name": "planned"
+      }
+    },
+    "Launch Date": {
+      "date": null
+    },
+    "Automation Level": {
+      "select": {
+        "name": "medium"
+      }
+    },
+    "Startup Cost": {
+      "select": {
+        "name": "medium"
+      }
+    },
+    "Time to Profit": {
+      "select": {
+        "name": "6-12 months"
+      }
+    },
+    "Key Features": {
+      "multi_select": [
+        {
+          "name": "Curated products"
+        },
+        {
+          "name": "Automated shipping"
+        },
+        {
+          "name": "Member portal"
+        }
+      ]
+    }
+  },
+  {
+    "Name": {
+      "title": [
+        {
+          "text": {
+            "content": "Digital Courses for Small Business Owners"
+          }
+        }
+      ]
+    },
+    "Category": {
+      "select": {
+        "name": "FOUNDATION"
+      }
+    },
+    "Description": {
+      "rich_text": [
+        {
+          "text": {
+            "content": "Online business education platform"
+          }
+        }
+      ]
+    },
+    "Status": {
+      "select": {
+        "name": "development"
+      }
+    },
+    "Launch Date": {
+      "date": null
+    },
+    "Automation Level": {
+      "select": {
+        "name": "high"
+      }
+    },
+    "Startup Cost": {
+      "select": {
+        "name": "low"
+      }
+    },
+    "Time to Profit": {
+      "select": {
+        "name": "immediate"
+      }
+    },
+    "Key Features": {
+      "multi_select": [
+        {
+          "name": "Video courses"
+        },
+        {
+          "name": "Resource library"
+        },
+        {
+          "name": "Community access"
+        }
+      ]
+    }
+  },
+  {
+    "Name": {
+      "title": [
+        {
+          "text": {
+            "content": "Voice-to-CRM Transcription Tool"
+          }
+        }
+      ]
+    },
+    "Category": {
+      "select": {
+        "name": "INNOVATION"
+      }
+    },
+    "Description": {
+      "rich_text": [
+        {
+          "text": {
+            "content": "Voice notes to CRM integration platform"
+          }
+        }
+      ]
+    },
+    "Status": {
+      "select": {
+        "name": "development"
+      }
+    },
+    "Launch Date": {
+      "date": null
+    },
+    "Automation Level": {
+      "select": {
+        "name": "high"
+      }
+    },
+    "Startup Cost": {
+      "select": {
+        "name": "medium"
+      }
+    },
+    "Time to Profit": {
+      "select": {
+        "name": "6-12 months"
+      }
+    },
+    "Key Features": {
+      "multi_select": [
+        {
+          "name": "Voice recognition"
+        },
+        {
+          "name": "CRM integration"
+        },
+        {
+          "name": "Mobile app"
+        }
+      ]
+    }
+  },
+  {
+    "Name": {
+      "title": [
+        {
+          "text": {
+            "content": "Event Ticketing Platform"
+          }
+        }
+      ]
+    },
+    "Category": {
+      "select": {
+        "name": "INNOVATION"
+      }
+    },
+    "Description": {
+      "rich_text": [
+        {
+          "text": {
+            "content": "Digital event ticketing solution"
+          }
+        }
+      ]
+    },
+    "Status": {
+      "select": {
+        "name": "development"
+      }
+    },
+    "Launch Date": {
+      "date": null
+    },
+    "Automation Level": {
+      "select": {
+        "name": "high"
+      }
+    },
+    "Startup Cost": {
+      "select": {
+        "name": "medium"
+      }
+    },
+    "Time to Profit": {
+      "select": {
+        "name": "6-12 months"
+      }
+    },
+    "Key Features": {
+      "multi_select": [
+        {
+          "name": "Digital tickets"
+        },
+        {
+          "name": "Event management"
+        },
+        {
+          "name": "Analytics"
+        }
+      ]
+    }
+  },
+  {
+    "Name": {
+      "title": [
+        {
+          "text": {
+            "content": "Personal Coaching Services"
+          }
+        }
+      ]
+    },
+    "Category": {
+      "select": {
+        "name": "RELATIONSHIP"
+      }
+    },
+    "Description": {
+      "rich_text": [
+        {
+          "text": {
+            "content": "Professional life and business coaching"
+          }
+        }
+      ]
+    },
+    "Status": {
+      "select": {
+        "name": "active"
+      }
+    },
+    "Launch Date": {
+      "date": null
+    },
+    "Automation Level": {
+      "select": {
+        "name": "medium"
+      }
+    },
+    "Startup Cost": {
+      "select": {
+        "name": "low"
+      }
+    },
+    "Time to Profit": {
+      "select": {
+        "name": "immediate"
+      }
+    },
+    "Key Features": {
+      "multi_select": [
+        {
+          "name": "1-on-1 coaching"
+        },
+        {
+          "name": "Group programs"
+        },
+        {
+          "name": "Online courses"
+        }
+      ]
+    }
+  },
+  {
+    "Name": {
+      "title": [
+        {
+          "text": {
+            "content": "Networking Event Brand"
+          }
+        }
+      ]
+    },
+    "Category": {
+      "select": {
+        "name": "RELATIONSHIP"
+      }
+    },
+    "Description": {
+      "rich_text": [
+        {
+          "text": {
+            "content": "High-end business networking events"
+          }
+        }
+      ]
+    },
+    "Status": {
+      "select": {
+        "name": "planned"
+      }
+    },
+    "Launch Date": {
+      "date": null
+    },
+    "Automation Level": {
+      "select": {
+        "name": "medium"
+      }
+    },
+    "Startup Cost": {
+      "select": {
+        "name": "medium"
+      }
+    },
+    "Time to Profit": {
+      "select": {
+        "name": "3-6 months"
+      }
+    },
+    "Key Features": {
+      "multi_select": [
+        {
+          "name": "Exclusive venues"
+        },
+        {
+          "name": "Speaker series"
+        },
+        {
+          "name": "Member networking"
+        }
+      ]
+    }
+  },
+  {
+    "Name": {
+      "title": [
+        {
+          "text": {
+            "content": "Voiceover + AI Script Library"
+          }
+        }
+      ]
+    },
+    "Category": {
+      "select": {
+        "name": "KNOWLEDGE"
+      }
+    },
+    "Description": {
+      "rich_text": [
+        {
+          "text": {
+            "content": "AI-powered voiceover and script platform"
+          }
+        }
+      ]
+    },
+    "Status": {
+      "select": {
+        "name": "development"
+      }
+    },
+    "Launch Date": {
+      "date": null
+    },
+    "Automation Level": {
+      "select": {
+        "name": "high"
+      }
+    },
+    "Startup Cost": {
+      "select": {
+        "name": "medium"
+      }
+    },
+    "Time to Profit": {
+      "select": {
+        "name": "6-12 months"
+      }
+    },
+    "Key Features": {
+      "multi_select": [
+        {
+          "name": "AI voices"
+        },
+        {
+          "name": "Script templates"
+        },
+        {
+          "name": "Custom voices"
+        }
+      ]
+    }
+  },
+  {
+    "Name": {
+      "title": [
+        {
+          "text": {
+            "content": "Real Estate Licensing Prep Course"
+          }
+        }
+      ]
+    },
+    "Category": {
+      "select": {
+        "name": "KNOWLEDGE"
+      }
+    },
+    "Description": {
+      "rich_text": [
+        {
+          "text": {
+            "content": "Real estate exam preparation platform"
+          }
+        }
+      ]
+    },
+    "Status": {
+      "select": {
+        "name": "planned"
+      }
+    },
+    "Launch Date": {
+      "date": null
+    },
+    "Automation Level": {
+      "select": {
+        "name": "high"
+      }
+    },
+    "Startup Cost": {
+      "select": {
+        "name": "low"
+      }
+    },
+    "Time to Profit": {
+      "select": {
+        "name": "3-6 months"
+      }
+    },
+    "Key Features": {
+      "multi_select": [
+        {
+          "name": "Study materials"
+        },
+        {
+          "name": "Practice exams"
+        },
+        {
+          "name": "Coaching"
+        }
+      ]
+    }
+  },
+  {
+    "Name": {
+      "title": [
+        {
+          "text": {
+            "content": "Trade Skills Bootcamp"
+          }
+        }
+      ]
+    },
+    "Category": {
+      "select": {
+        "name": "KNOWLEDGE"
+      }
+    },
+    "Description": {
+      "rich_text": [
+        {
+          "text": {
+            "content": "Hands-on trade skills training program"
+          }
+        }
+      ]
+    },
+    "Status": {
+      "select": {
+        "name": "planned"
+      }
+    },
+    "Launch Date": {
+      "date": null
+    },
+    "Automation Level": {
+      "select": {
+        "name": "low"
+      }
+    },
+    "Startup Cost": {
+      "select": {
+        "name": "high"
+      }
+    },
+    "Time to Profit": {
+      "select": {
+        "name": "6-12 months"
+      }
+    },
+    "Key Features": {
+      "multi_select": [
+        {
+          "name": "Practical training"
+        },
+        {
+          "name": "Certification prep"
+        },
+        {
+          "name": "Job placement"
+        }
+      ]
+    }
+  }
+]
