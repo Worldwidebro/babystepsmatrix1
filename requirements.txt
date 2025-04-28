@@ -17,7 +17,7 @@ pydantic>=2.5.0
 pandas==2.2.0
 plotly==5.18.0
 numpy==1.26.3
-aiohttp==3.9.3
+aiohttp==3.11.0b0
 redis==5.0.1
 psycopg2-binary==2.9.9
 bcrypt==4.1.2
@@ -26,11 +26,11 @@ google-auth==2.27.0
 duckduckgo-search==4.1.1
 passlib[bcrypt]==1.7.4
 prometheus-client==0.19.0
-sentry-sdk==1.39.1
+sentry-sdk==2.8.0
 backblaze-b2==1.4.0
-cryptography==42.0.2
+cryptography==44.0.1
 email-validator==2.1.0.post1
-python-multipart==0.0.6
+python-multipart==0.0.18
 # Genix Business Ecosystem dependencies
 stripe==7.5.0
 anthropic==0.8.0
