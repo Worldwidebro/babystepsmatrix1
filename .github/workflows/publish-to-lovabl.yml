@@ -1,0 +1,67 @@
+name: Publish to Lovabl Marketplace
+
+on:
+  schedule:
+    - cron: "0 0 * * *" # Run daily at midnight
+  workflow_dispatch: # Allow manual triggering
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+
+    env:
+      SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+      SUPABASE_ANON_KEY: ${{ secrets.SUPABASE_ANON_KEY }}
+      LOVABL_API_KEY: ${{ secrets.LOVABL_API_KEY }}
+      GENIX_KEY: ${{ secrets.GENIX_KEY }}
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Run publisher script
+        run: |
+          cat << EOF > publish_script.py
+          import asyncio
+          from src.services.lovabl_publisher import LovablPublisher
+
+          async def main():
+              publisher = LovablPublisher()
+              published = await publisher.publish_high_impact_unknowns(impact_threshold=0.8)
+              
+              print(f"Published {len(published)} products to Lovabl:")
+              for product in published:
+                  print(f"- {product['listing_url']}")
+
+          if __name__ == '__main__':
+              asyncio.run(main())
+          EOF
+
+          python publish_script.py
+
+      - name: Create summary
+        if: always()
+        run: |
+          echo "## Lovabl Publishing Results" >> $GITHUB_STEP_SUMMARY
+          echo "Check the logs for details on published products." >> $GITHUB_STEP_SUMMARY
+
+      - name: Notify on failure
+        if: failure()
+        uses: actions/github-script@v6
+        with:
+          script: |
+            github.rest.issues.create({
+              owner: context.repo.owner,
+              repo: context.repo.name,
+              title: 'Lovabl Publishing Failed',
+              body: 'The automated publishing to Lovabl marketplace has failed. Please check the workflow logs for details.'
+            })

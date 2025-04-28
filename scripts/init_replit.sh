@@ -55,6 +55,15 @@ else
     echo -e "${RED}Error: MCP Crew file not found${NC}"
 fi
 
+# Initialize Genix Business Ecosystem
+echo -e "${GREEN}Initializing Genix Business Ecosystem...${NC}"
+if [ -f "src/genix_ecosystem.py" ]; then
+    python scripts/init_genix.py
+    echo "Genix Business Ecosystem initialized"
+else
+    echo -e "${RED}Error: Genix Business Ecosystem files not found${NC}"
+fi
+
 # Setup monitoring
 echo -e "${GREEN}Setting up monitoring...${NC}"
 npm run test:health
@@ -77,4 +86,4 @@ echo -e "\n${BLUE}Next Steps:${NC}"
 echo "1. Configure your environment variables in Replit Secrets"
 echo "2. Start the development server with: npm run dev:all"
 echo "3. Access the dashboard at: https://your-repl.your-username.repl.co"
-echo "4. Check the documentation at: /docs" 
+echo "4. Check the documentation at: /docs"

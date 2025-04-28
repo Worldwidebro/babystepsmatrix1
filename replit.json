@@ -1,0 +1,33 @@
+{
+  "language": "python3",
+  "run": "python3 src/core/iza_bootstrapper.py",
+  "entrypoint": "src/core/iza_bootstrapper.py",
+  "onBoot": "pip install -r requirements.txt",
+  "packager": {
+    "language": "python3",
+    "afterInstall": "python3 -m pip install --upgrade pip",
+    "ignoredPaths": [
+      ".git",
+      ".github",
+      "node_modules",
+      "venv",
+      "__pycache__",
+      "*.pyc"
+    ]
+  },
+  "env": {
+    "PYTHONPATH": "${PYTHONPATH}:${REPL_HOME}/src",
+    "DEPLOYMENT_ENV": "replit"
+  },
+  "extensions": {
+    "replit.ai": {
+      "enabled": true,
+      "model": "gpt-3.5-turbo"
+    }
+  },
+  "debugger": {
+    "enabled": true,
+    "mode": "debug",
+    "port": 5678
+  }
+}

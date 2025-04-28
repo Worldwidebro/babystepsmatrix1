@@ -170,6 +170,116 @@ npm run monitor
 - Error Rates
 - User Sessions
 
+3. **Business Metrics**
+
+- Conversion rates
+- Revenue tracking
+- Price elasticity
+- Customer behavior
+- A/B test results
+- Alert history
+
+## Analytics & Experimentation
+
+### 1. Analytics Dashboard
+
+- Real-time product metrics
+- Conversion tracking
+- Revenue analytics
+- User behavior analysis
+
+### 2. A/B Testing
+
+- Price optimization experiments
+- Statistical analysis with confidence levels
+- Automated variant assignment
+- Revenue and conversion tracking
+- Experiment lifecycle management
+
+Example experiment:
+
+```bash
+# Create price experiment
+curl -X POST /analytics/experiments \
+  -d '{"listing_id": "123", "variants": [
+    {"basic": 10, "premium": 20},
+    {"basic": 15, "premium": 25}
+  ]}'
+
+# Get experiment results
+curl /analytics/experiments/{experiment_id}
+```
+
+### 3. Alert System
+
+- Customizable alert rules
+- Real-time metric monitoring
+- Multi-condition triggers
+- Cooldown periods
+- Alert history and analytics
+
+Default alert rules:
+
+- Conversion rate drops below 1%
+- Daily revenue below threshold
+- Low traffic alerts
+- Price elasticity monitoring
+
+Example alert rule:
+
+```bash
+# Create alert rule
+curl -X POST /analytics/alerts/rules \
+  -d '{
+    "metric": "conversion_rate",
+    "condition": "<",
+    "threshold": 1.0,
+    "window_minutes": 60,
+    "cooldown_minutes": 240
+  }'
+```
+
+## API Endpoints
+
+### Analytics API
+
+```bash
+# Dashboard data
+GET /analytics/dashboard
+
+# Product metrics
+GET /analytics/products/{listing_id}/metrics
+
+# Track events
+POST /analytics/events/{listing_id}
+```
+
+### A/B Testing API
+
+```bash
+# Create experiment
+POST /analytics/experiments
+
+# Get experiment results
+GET /analytics/experiments/{experiment_id}
+
+# Get variant for user
+GET /analytics/experiments/{listing_id}/variant
+```
+
+### Alert API
+
+```bash
+# Create alert rule
+POST /analytics/alerts/rules
+
+# Get recent alerts
+GET /analytics/alerts/recent
+
+# Check alerts manually
+POST /analytics/alerts/check
+```
+
 ## Contributing
 
 1. Fork the repository
