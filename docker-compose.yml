@@ -1,0 +1,43 @@
+version: '3.8'
+
+services:
+  babystepsmatrix1:
+    build: .
+    ports:
+      - "4000:4000"
+    environment:
+      - NODE_ENV=production
+      - REPO_NAME=babystepsmatrix1
+      - ORGANIZATION=Worldwidebro
+      - DATABASE_URL=postgresql://user:pass@db:5432/babystepsmatrix1
+    volumes:
+      - ./logs:/app/logs
+      - ./data:/app/data
+    depends_on:
+      - db
+    networks:
+      - billionaire-empire
+    restart: unless-stopped
+
+  db:
+    image: postgres:15
+    environment:
+      - POSTGRES_DB=babystepsmatrix1
+      - POSTGRES_USER=user
+      - POSTGRES_PASSWORD=pass
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    networks:
+      - billionaire-empire
+
+  redis:
+    image: redis:7-alpine
+    networks:
+      - billionaire-empire
+
+volumes:
+  postgres_data:
+
+networks:
+  billionaire-empire:
+    driver: bridge
